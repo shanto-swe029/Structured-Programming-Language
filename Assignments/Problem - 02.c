@@ -33,7 +33,7 @@ int main()
 	scanf("%d", &n);
 	sieve(n);
 
-	for( int i = 1; i < n; i++ ) {
+	for( int i = 1; i <= n; i++ ) {
 		if( isPrime(i) ) printf("%d\n", i);
 	}
   return 0;
